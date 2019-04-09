@@ -4,4 +4,5 @@ This project demonstrates how to do basic user authentication using Expo, React 
 
 
 Deploy the Expo web app to the Amplify Console
+
 [![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/dabit3/expo-user-authentication)
