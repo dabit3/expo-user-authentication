@@ -3,26 +3,31 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "jest-expo": "25.0.0",
-    "react-native-scripts": "1.11.1",
-    "react-test-renderer": "16.2.0"
+    "babel-preset-expo": "^5.1.1",
+    "jest-expo": "32.0.0",
+    "react-native-scripts": "2.0.1",
+    "react-test-renderer": "16.8.6"
   },
-  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "react-native-scripts start",
-    "eject": "react-native-scripts eject",
-    "android": "react-native-scripts android",
-    "ios": "react-native-scripts ios",
+    "start:web": "expo start --web-only --web --non-interactive",
+    "start": "expo start",
+    "eject": "expo eject",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
     "test": "node node_modules/jest/bin/jest.js"
   },
   "jest": {
     "preset": "jest-expo"
   },
   "dependencies": {
-    "aws-amplify": "^0.2.0",
-    "expo": "^25.0.0",
-    "react": "16.2.0",
-    "react-native": "0.52.0",
-    "react-navigation": "^1.1.2"
+    "@react-navigation/web": "^1.0.0-alpha.7",
+    "aws-amplify": "^1.1.25",
+    "expo": "^33.0.0-alpha.web.1",
+    "react": "16.5.0",
+    "react-dom": "16.7.0",
+    "react-native": "0.57.1",
+    "react-native-web": "^0.11.2",
+    "react-navigation": "^3.6.1"
   }
 }
