@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextInput, Button, StyleSheet, Text, View } from 'react-native';
+import { Auth } from 'aws-amplify';
 
 export default class App extends React.Component {
   state = {
